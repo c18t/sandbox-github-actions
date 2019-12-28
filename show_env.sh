@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #echo \$ \'$\'
-echo \$SUPER_SECRET(from env): \'$SUPER_SECRET\'
+echo \$SUPER_SECRET\(from env\): \'$SUPER_SECRET\'
 echo \$HOME: \'$HOME\'
 echo \$GITHUB_WORKFLOW: \'$GITHUB_WORKFLOW\'
 echo \$GITHUB_ACTION: \'$GITHUB_ACTION\'
