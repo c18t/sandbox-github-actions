@@ -15,3 +15,10 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
+    - name: Run shell script
+      run: show_env.sh
+      with:
+        super_secret: ${{ secrets.SuperSecret }}
+      env:
+        super_secret: ${{ secrets.SuperSecret }}
+  
