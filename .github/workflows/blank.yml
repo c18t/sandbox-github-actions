@@ -18,4 +18,4 @@ jobs:
     - name: Run shell script
       run: ./show_env.sh
       env:
-        super_secret: ${{ secrets.SuperSecret }}
+        SUPER_SECRET: ${{ secrets.SuperSecret }}
